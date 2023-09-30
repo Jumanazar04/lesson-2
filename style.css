@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&family=Roboto&display=swap');
+
+body {
+    font-family: 'Onest', sans-serif;
+}
+.data {
+    text-align: center;
+    margin: 30px auto 0 auto;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.time-element {
+    text-align: center;
+    font-size: 25px;
+}
+
+.main-text {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.form-create {
+    max-width: 500px;
+    margin:  0 auto;
+    column-gap: 10px;
+    position: relative;
+}
+
+.massege-create {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-item {
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-edit {
+    width: 400px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.list-group {
+    max-width: 500px;
+    margin: 20px auto;
+    list-style: none;
+}
