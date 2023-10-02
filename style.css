@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Onest', sans-serif;
+    letter-spacing: .7px;
 }
 .data {
     text-align: center;
@@ -57,4 +58,25 @@ body {
     max-width: 500px;
     margin: 20px auto;
     list-style: none;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .todo-text {
+    
+} */
+
+.time-elements {
+    font-size: 14px;
+    opacity: .6;
+}
+
+.elements {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
 }
